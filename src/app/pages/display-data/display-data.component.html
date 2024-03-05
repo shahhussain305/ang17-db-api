@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Title</th>
+            <th>Dated</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(post of data; track post.sno){
+            <tr>
+                <td>{{post.sno}}</td>
+                <td>{{post.dateOfHearing}}</td>
+                <td>{{post.stageOfProceedings}}</td>
+            </tr>
+        }
+</tbody>
+</table>

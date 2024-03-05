@@ -1,0 +1,1 @@
+Place this code in your localhost virtual host and check the api url for make the api live with db
